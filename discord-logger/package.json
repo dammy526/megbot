@@ -1,0 +1,24 @@
+{
+  "name": "meg-discord-bot",
+  "version": "1.0.0",
+  "description": "M.E.G. Discord Bot with EP system and moderation",
+  "main": "logger.js",
+  "scripts": {
+    "start": "node logger.js",
+    "dev": "node logger.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "quick.db": "^9.1.7",
+    "canvas": "^2.11.2",
+    "better-sqlite3": "^8.6.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["discord", "bot", "moderation"],
+  "author": "M.E.G. Team",
+  "license": "MIT"
+}
