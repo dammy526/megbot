@@ -4,7 +4,8 @@
   "description": "M.E.G. Discord Bot",
   "main": "logger.js",
   "scripts": {
-    "start": "node logger.js"
+    "start": "node logger.js",
+    "dev": "node logger.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",

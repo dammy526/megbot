@@ -1,1 +1,1 @@
-worker: node logger.js
+worker: npm start
