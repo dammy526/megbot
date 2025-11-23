@@ -1,11 +1,10 @@
 {
   "name": "meg-discord-bot",
   "version": "1.0.0",
-  "description": "M.E.G. Discord Bot with EP system and moderation",
+  "description": "M.E.G. Discord Bot",
   "main": "logger.js",
   "scripts": {
-    "start": "node logger.js",
-    "dev": "node logger.js"
+    "start": "node logger.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
@@ -17,8 +16,5 @@
   },
   "engines": {
     "node": "18.x"
-  },
-  "keywords": ["discord", "bot", "moderation"],
-  "author": "M.E.G. Team",
-  "license": "MIT"
+  }
 }

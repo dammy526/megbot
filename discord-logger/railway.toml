@@ -1,11 +1,10 @@
-[build]
-builder = "nixpacks"
-
-[deploy]
-healthcheckPath = "/"
-healthcheckTimeout = 300
-restartPolicyType = "on_failure"
-
-[[services]]
-name = "meg-bot"
-type = "worker"
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "node logger.js",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}
